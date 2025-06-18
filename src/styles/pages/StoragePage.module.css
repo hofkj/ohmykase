@@ -1,0 +1,19 @@
+.container {
+ display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+  height: 100%;
+  overflow-y: auto;
+  box-sizing: border-box;
+  scrollbar-width: none;
+}
+
+.omakaseContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 90px;
+  gap: 30px;
+}

@@ -1,0 +1,115 @@
+.nav_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed; 
+    bottom: 0;
+    /* width: 100%; */
+    width: 375px;
+    height: 89px;
+    z-index: 1000;
+    border-top: 0.4px solid #AEAEAE;
+    background: #FFF;
+}
+
+.nav_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home {
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.home img {
+    width: 17px;
+    height: 18px;
+}
+
+.map {
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.map img {
+    width: 15px;
+    height: 20px;
+}
+
+.review {
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.review img {
+    width: 18px;
+    height: 19px;
+}
+
+.reservation {
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.reservation img {
+    width: 16px;
+    height: 19.2px;
+}
+
+.profile {
+    color: var(--BLACK-03, #747474);
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.profile img {
+    width: 19px;
+    height: 19px;
+}

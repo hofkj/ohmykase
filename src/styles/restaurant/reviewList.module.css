@@ -1,0 +1,120 @@
+/* .reviewList {
+    padding: 22px 18px;
+} */
+
+.reviewItem {
+    border-bottom: 2px solid #F6F6F6;
+    padding: 22px 18px;
+
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 10px;
+}
+
+.userContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* .userImage {
+
+} */
+
+.userInfo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.userName {
+    color: var(--BLACK-02, var(--BLACK-02, #3D3D3D));
+    font-family: Pretendard;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.timeAgo {
+    color: var(--BLACK-03, #747474);
+    font-family: Pretendard;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.ratingValue {
+    color: var(--BLACK-03, #747474);
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.reviewText {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+    
+    max-width: 340px;
+    width: 100%;
+    height: auto;
+
+
+    /* display: -webkit-box; */
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    align-self: stretch;
+    overflow: hidden;
+    color: var(--BLACK-01, #131313);
+    text-overflow: ellipsis;
+    font-family: Pretendard;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    text-align: left;
+}
+
+.moreButton {
+    color: #797979;
+    font-family: Pretendard;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    border: none;
+    background: none;
+    text-align: left;
+    padding: 0;
+}
+
+.reviewImages {
+    display: flex;
+    gap: 4px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+.reviewImage {
+    width: 126px;
+    height: 126px;
+    object-fit: cover;
+    border-radius: 8px;
+}

@@ -1,0 +1,30 @@
+
+
+  .time {
+    display: flex;
+    width: 60px;
+    height: 26px;
+    /* padding: 6px 14px; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 47px;
+    border: 1px solid var(--MAIN-02, #82152F);
+    background: #FFF;
+    color: var(--RED-02, var(--MAIN-02, #82152F));
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+
+    /* transition: background-color 0.3s ease; */
+
+}
+
+/* 활성화 디자인 */
+.time:active {
+    background-color: #BB0038; 
+    color: #FFF;
+}

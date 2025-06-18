@@ -1,0 +1,22 @@
+  /* 시간 선택 */
+  .timeContainer {
+    padding: 26px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 6px; */
+ }
+ 
+ .timeContainer {
+    width: 100%;
+    padding-left: 18px;
+    overflow: hidden;
+}
+
+.swiper {
+    width: 100%;
+}
+
+
+
+ 

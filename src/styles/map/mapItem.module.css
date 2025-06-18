@@ -1,0 +1,88 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 18px;
+  gap: 12px;
+  margin-top: 26px;
+}
+
+/* 정보 컨테이너 */
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 식당 정보 */
+.restaurantInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 325px;
+}
+
+/* 식당 이름 */
+.restaurantName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+color: #000;
+text-align: center;
+font-family: Pretendard;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 22px; /* 146.667% */
+}
+
+/* 별 아이콘 */
+.starIcon {
+  width: 15px;
+  height: 15px;
+  /* object-fit: cover; */
+}
+
+/* 평점 */
+.rating {
+color: #000;
+text-align: center;
+font-family: Pretendard;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 22px; /* 157.143% */
+}
+
+/* 즐겨찾기 아이콘 */
+.bookmarkIcon img {
+width: 16px;
+height: 22px;
+}
+
+/* 주소 */
+.address {
+color: #000;
+font-family: Pretendard;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 22px; /* 157.143% */
+}
+
+/* 이미지 컨테이너 */
+.imageContainer {
+  display: flex;
+  gap: 6px;
+  overflow-x: scroll;
+    scrollbar-width: none;  /* Firefox */
+
+}
+
+/* 개별 식당 이미지 */
+.restaurantImage {
+width: 99px;
+height: 80px;
+  object-fit: cover;
+}
+

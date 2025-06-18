@@ -1,0 +1,84 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+    /* width: 120px; */
+    /* margin-right: 8px; */
+}
+
+.dropdownButton {
+    width: 90px;
+    height: 30px;
+    padding: 7px 10px; 
+    border-radius: 10px;
+    cursor: pointer;
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--BLACK-03, #747474);
+    opacity: 0.8;
+    background: #FFF;
+
+    color: var(--BLACK-03, #747474);
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.dropdownButton.active {
+    border-color: #BB0038;
+    color: #BB0038;
+}
+
+.arrow {
+    font-size: 10px;
+}
+
+.dropdownMenu {
+    z-index: 100000;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #FFF;
+    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.14);
+    list-style: none;
+    padding: 0;
+    margin-top: 6px;
+    overflow: hidden;
+
+    width: 90px;
+    align-items: center;
+    /* gap: 10px; */
+    align-self: stretch;
+    border-radius: 12px;
+
+}
+
+.dropdownMenu li {
+    cursor: pointer;
+    display: flex;
+    height: 30px;
+    padding: 9px 10px 7px 10px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    color: var(--BLACK-03, #747474);
+    font-family: Pretendard;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+.dropdownMenu li:hover,
+.dropdownMenu .selected {
+    background: #b22234;
+    color: white;
+    font-weight: bold;
+}

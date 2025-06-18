@@ -1,0 +1,51 @@
+.tabMenu {
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+    border-bottom: 1px solid var(--BLACK-04, #D5D5D5);
+    position: relative;
+    
+    
+    display: flex;
+    width: 375px;
+    height: 34px;
+    justify-content: center;
+    /* gap: 10px; */
+}
+
+.tabMenu button {
+    /* padding: 12px 24px; */
+    border: none;
+    background: #FFF;
+    cursor: pointer;
+    flex: 1;
+    position: relative;
+
+    color: var(--BLACK-03, #747474);
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px; /* 157.143% */
+}
+
+.tabMenu button.active {
+    color: var(--BLACK-01, #131313);
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px; /* 157.143% */
+}
+
+.tabMenu button.active::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 1.5px;
+    background-color: #131313;
+}

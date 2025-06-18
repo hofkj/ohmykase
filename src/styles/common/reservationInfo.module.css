@@ -1,0 +1,24 @@
+.container {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.info {
+  color: var(--BLACK-03, #747474);
+  font-family: Pretendard;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.date {
+    color: var(--BLACK-02, var(--BLACK-02, #3D3D3D));
+    font-family: Pretendard;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

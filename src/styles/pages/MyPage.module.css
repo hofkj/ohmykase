@@ -1,0 +1,229 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profileSection {
+  width: 340px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 38px;
+  border-bottom: 2px solid #f9f9f9;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+
+.profilePicture {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.profileInfo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.userName {
+  color: #000;
+  font-family: Pretendard;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.userEmail {
+  color: var(--BLACK-03, #747474);
+  font-family: Pretendard;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.editInfoButton {
+  width: 73px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 58px;
+  background: var(--BLACK-05, #eee);
+  color: var(--BLACK-03, #747474);
+  font-family: Pretendard;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* 구분선 */
+
+.reservationSection {
+  width: 340px;
+  height: 230px;
+  border-bottom: 2px solid #f9f9f9;
+  box-sizing: border-box;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+
+.reservationTitle {
+  color: var(--BLACK-02, var(--BLACK-02, #3d3d3d));
+  font-family: Pretendard;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 14px;
+}
+
+.reservationItem {
+  display: flex;
+  height: 161px;
+  padding: 15px 19px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 12px;
+  background: var(--BLACK-06, #f9f9f9);
+  box-sizing: border-box;
+}
+
+.restaurantInfo {
+  display: flex;
+  gap: 16px;
+}
+
+.img {
+  width: 77px;
+  height: 80px;
+  border-radius: 8px;
+}
+
+.restaurantDetails {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.restaurantName {
+  color: var(--BLACK-01, #131313);
+  font-family: Pretendard;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.reservationDetails {
+  color: var(--BLACK-03, #747474);
+  font-family: Pretendard;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.stars {
+  margin-top: 4px;
+}
+
+.reviewButton {
+  display: flex;
+  height: 34px;
+  padding: 8px 118px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 6px;
+  background: #fff;
+  color: var(--BLACK-02, var(--BLACK-02, #3d3d3d));
+  text-align: center;
+  font-family: Pretendard;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* 구분선 */
+
+/* .savedOmakaseSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 14px;
+    box-sizing: border-box;
+} */
+
+.savedOmakaseHeader {
+  width: 340px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.savedOmakaseTitle {
+  color: #000;
+  font-family: Pretendard;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.viewMoreButton {
+  color: var(--BLACK-03, #747474);
+  font-family: Pretendard;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.link {
+  text-decoration: none; /* 링크의 밑줄 제거 */
+  color: inherit; /* 부모 색상으로 상속 */
+}
+
+.loginContainer {
+  width: 115px;
+  height: 19px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.login {
+  color: #000;
+  font-family: Pretendard;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.loginArrow {
+  width: 6px;
+  height: 12px;
+}

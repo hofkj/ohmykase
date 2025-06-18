@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.successContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 14px;
+    width: 214px;
+    height: 136px;
+    margin: 200px 0;
+    /* 원래는 255 0 240인데 폰으로 볼때 */
+
+}
+
+.successMessage {
+    color: var(--BLACK-02, var(--BLACK-02, #3D3D3D));
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 90.909% */
+}
+
+.successDescription {
+    color: var(--BLACK-02, var(--BLACK-02, #3D3D3D));
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: 0.5px;
+    margin-top: 6px;
+}
+
+.infoMessage {
+    color: var(--BLACK-03, #747474);
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; /* 140% */
+}
+
+.infoContainer {
+    /*임시, 하단 버튼 위치 잡기*/
+}
+
+.redText {
+    color: var(--RED-02, var(--MAIN-02, #82152F));
+    font-weight: 500;
+}
+
+.pointText {
+    font-weight: 500;
+}

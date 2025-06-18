@@ -1,0 +1,65 @@
+.restaurantInfo {
+    padding: 20px 10px 0px 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    /* gap: 7px; */
+}
+
+.name {
+    color: #000;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px; /* 122.222% */
+    margin-bottom: 4px;
+}
+
+.rating {
+    color: var(--BLACK-03, #747474);
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+/* .rating img {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+} */
+
+.description {
+    border-radius: 8px;
+    background: #FAFAFA;
+    color: var(--BLACK-02, #3D3D3D);
+    font-family: Pretendard;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+
+    display: flex;
+    width: 340px;
+    height: 43px;
+
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    /* 나중에 */
+    gap: 10px;
+}
+
+.description img {
+    width: 14px;
+    height: 10px;
+}

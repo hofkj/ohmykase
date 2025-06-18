@@ -1,0 +1,120 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+.InputContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 69px;
+  width: 340px;
+  gap: 10px;
+  margin-top: 34px;
+}
+
+.title {
+  color: var(--BLACK-02, var(--BLACK-02, #3d3d3d));
+  font-family: Pretendard;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.input {
+  display: flex;
+  height: 40px;
+  padding: 6px 12px;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 8px;
+  background: var(--BLACK-06, #f9f9f9);
+  box-sizing: border-box;
+}
+
+input {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  /* gap: 40px; */
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.emailBtn {
+  display: flex;
+  padding: 6px 10px;
+  align-items: center;
+  border: none;
+  border-radius: 6px;
+  background: var(--BLACK-04, #d5d5d5);
+  color: #fff;
+  text-align: center;
+  font-family: Pretendard;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.emailBtn:disabled {
+  background: var(--BLACK-04, #d5d5d5);
+  cursor: not-allowed;
+}
+
+.activeBtn {
+  background-color: #bb0038; /* 활성화된 버튼 색상 */
+}
+
+.eyeButton {
+  border: none;
+  background: none;
+}
+
+.submitButton {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 89px;
+  border-top: 0.4px solid var(--BLACK-04, #d5d5d5);
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.btn {
+  width: 341px;
+  height: 45px;
+  background: #bb0038;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Pretendard;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

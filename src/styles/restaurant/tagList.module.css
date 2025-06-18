@@ -1,0 +1,26 @@
+.tagList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4px;
+    padding: 10px;
+}
+
+.tag {
+    display: flex;
+    padding: 6px 13px;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+    border-radius: 100px;
+    border: 1px solid var(--BLACK-04, #D5D5D5);
+    background: #FFF;
+    color: var(--BLACK-03, #747474);
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

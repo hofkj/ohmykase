@@ -1,0 +1,50 @@
+.header {
+    width: 375px;
+    height: 64px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+
+    position: fixed;
+    top: 0; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    background-color: #FFF; 
+    z-index: 1000; 
+}
+
+.headerContainer {
+    width: 339px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 13px;
+}
+
+.homeText {
+    color: var(--BLACK-02, var(--BLACK-02, #3D3D3D));
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.iconContainer {
+    display: flex;
+    gap: 18px;
+
+}
+
+.search {
+    width: 16px;
+    height: 16px;
+}
+
+.alarm {
+    width: 16px;
+    height: 17px;
+}

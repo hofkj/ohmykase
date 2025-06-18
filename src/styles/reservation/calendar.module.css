@@ -1,0 +1,138 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 376px;
+  height: 581px;
+  border-radius: 40px;
+}
+
+/* 달력 스타일 */
+.calendar {
+  /* margin: auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 22px;
+  margin-top: 24px;
+}
+
+.calendarHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.title {
+  color: var(--BLACK-01, #131313);
+  text-align: center;
+  font-family: Pretendard;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.calendarContainer {
+  height: 206px;
+  width: 324px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+
+  /* 나중에 디자인 수정시 삭제 */
+  /* border-bottom: 2px solid #F6F6F6; */
+  padding-bottom: 36px;
+
+}
+
+.item {
+  display: grid;
+  place-items: center;
+
+  /* 디자인과 물어보기! */
+  border-radius: 50px;
+  width: 29px;
+  height: 29px;
+}
+
+.weekName {
+  font-weight: bold;
+  color: #aaa;
+  /* width: 25px; */
+  color: var(--BLACK-03, #747474);
+  text-align: center;
+  font-family: Pretendard;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1px;
+  /* border-bottom: 1px solid #555; */
+}
+
+.otherMonth {
+  color: var(--BLACK-04, #d5d5d5) !important;
+  text-align: center;
+  font-family: Pretendard;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1px;
+  /* color: #ddd !important; */
+}
+
+.item:nth-child(7n + 1) {
+  color: crimson;
+}
+
+.item:nth-child(7n) {
+  color: darkblue;
+}
+
+/* 이전/다음 버튼 스타일 */
+.prevMonth,
+.nextMonth {
+  cursor: pointer;
+  background: none;
+  border: none;
+  width: 4px;
+  height: 10px;
+}
+
+/* 인원 선택 */
+.numberSelection {
+  width: 340px;
+  height: 91px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 20px; */
+  padding: 0px 14px;
+  border-top: 2px solid #f6f6f6;
+  border-bottom: 2px solid #f6f6f6;
+  box-sizing: border-box;
+}
+
+.numImg {
+  height: 21px;
+}
+
+.numText {
+  color: #b3b3b3;
+  text-align: center;
+  font-family: Pretendard;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.item:active {
+  background-color: #bb0038;
+  color: #fff;
+}

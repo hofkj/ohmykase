@@ -1,0 +1,51 @@
+.omakaseContainer {
+    width: 375px;
+    height: 35px;
+    display: flex;
+    gap: 109px;
+    justify-content: center;
+    margin-bottom: 18px;
+    align-items: center;
+}
+
+.omakaseHeader {
+    width: 195px;
+    height: 35px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: start;
+    flex-direction: column;
+}
+
+.omakaseTitle {
+    color: #000;
+    font-family: Pretendard;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.omakaseSubtitle {
+    color: var(--BLACK-04, #B1B1B1);
+    font-family: Pretendard;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.omakaseMore {
+    color: var(--BLACK-03, #747474);
+    font-family: Pretendard;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.arrow {
+    width: 4px;
+    height: 8px;
+    margin-left: 6px;
+}

@@ -1,0 +1,35 @@
+.buttonContainer {
+    display: flex;
+    width: 375px;
+    height: 89px;
+    /* padding: 14px 17px 30px 17px; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-top: 0.4px solid var(--BLACK-04, #D5D5D5);
+    background: #FFF;   
+    position: fixed;
+    bottom: 0;
+    z-index: 9999;
+}
+
+.btn {
+    display: flex;
+    width: 341px;
+    height: 45px;
+    /* padding: 14px 158px; */
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    background: var(--MAIN-01, #BB0038);
+    color: #FFF;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+}

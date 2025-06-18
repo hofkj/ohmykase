@@ -1,0 +1,45 @@
+.foodAmountContainer {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.foodAmountContainer label {
+  color: var(--BLACK-02, var(--BLACK-02, #3d3d3d));
+  font-family: Pretendard;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.foodAmount {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 20px;
+}
+
+.foodAmount {
+  color: var(--BLACK-03, #747474);
+  font-family: Pretendard;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.radio {
+  width: 24px;
+  height: 24px;
+  border-radius: 22px;
+  border: 1px solid var(--GRAY-02, #a7aba8);
+  background: #fff;
+}
+
+.selected {
+  border: 1px solid var(--RED-03, #420010);
+  background: var(--MAIN-01, #bb0038);
+}

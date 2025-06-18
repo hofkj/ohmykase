@@ -1,0 +1,84 @@
+.reservationItemContainer {
+    width: 375px;
+    height: 137px;
+    display: flex;
+    padding: 18px;
+    justify-content: start;
+    align-items: center;
+    gap: 14px;
+    box-sizing: border-box;
+    border-bottom: 2px solid var(--BLACK-06, #F9F9F9);
+    background: #FFF;
+  }
+  
+  .restaurantImage {
+    width: 68px;
+    height: 77px;
+    border-radius: 6px;
+  }
+  
+  .detailsContainer {
+    gap: 6px;
+  }
+  
+  .detailsContainer,
+  .reservationDetails {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  
+  .status {
+    display: flex;
+    padding: 3px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    font-family: Pretendard;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .restaurantName {
+    color: var(--BLACK-01, #131313);
+    font-family: Pretendard;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .reservationDate,
+  .reservationPrice {
+    color: var(--BLACK-03, #747474);
+    font-family: Pretendard;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .pending {
+    background-color: #747474;
+    color: #FFF;
+  }
+  
+  .confirmed {
+    background-color: #bb0038;
+    color: #fff;
+  }
+  
+  .completed {
+    background-color: #D5D5D5; 
+    color: #fff; 
+  }
+
+  .cancelled {
+    background-color: #D5D5D5;
+    color: #fff;
+  }
+  

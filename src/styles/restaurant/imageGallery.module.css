@@ -1,0 +1,16 @@
+.imageGallery {
+    display: flex;
+    padding: 16px;
+    gap: 6px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+.imageGallery img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+
+    /* 양쪽부분만 추후 */
+    border-radius: 8px;
+}

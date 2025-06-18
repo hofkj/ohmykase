@@ -1,0 +1,46 @@
+.bottombar_container {
+    width: 375px;
+    height: 89px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    position: fixed;
+    bottom: 0;
+    background: #FFF;
+    z-index: 1000;
+    padding: 14px 20px 30px 20px;
+    box-sizing: border-box;
+    border-top: 0.4px solid var(--BLACK-04, #D5D5D5);
+}
+
+.bookmark {
+    width: 18px;
+    height: 23px;
+}
+
+.bookmarkNum {
+    color: var(--BLACK-02, var(--BLACK-02, #3D3D3D));
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.reservation_button {
+    width: 286px;
+    height: 42px;
+    border-radius: 11px;
+    border: none;
+    background: var(--MAIN-01, #BB0038);
+
+    color: #FFF;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+}

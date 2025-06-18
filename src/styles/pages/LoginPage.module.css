@@ -1,0 +1,204 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+/* .logoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  } */
+
+/* .logo {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+  } */
+
+.formContainer {
+  width: 100%;
+  max-width: 400px;
+}
+
+.inputGroup {
+  width: 340px;
+  height: 69px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 11px;
+  margin-top: 32px;
+}
+
+.label {
+  color: var(--BLACK-02, var(--BLACK-02, #3d3d3d));
+  font-family: Pretendard;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.input {
+  display: flex;
+  height: 40px;
+  padding: 6px 12px;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  align-self: stretch;
+  border-radius: 8px;
+  background: #f5f5f5;
+  box-sizing: border-box;
+  color: var(--BLACK-03, #747474);
+  font-family: Pretendard;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.input::placeholder {
+  color: #d5d5d5;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* .input:focus {
+  outline: none;
+  border-color: #c1272d;
+  background-color: #fff;
+} */
+
+.passwordInputContainer {
+  position: relative;
+}
+
+.eyeButton {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.eyeButton img {
+  width: 15px;
+  height: 8px;
+}
+
+.forgotPasswordContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8px;
+}
+
+.forgotPasswordButton {
+  background: none;
+  border: none;
+  color: #747474;
+  font-family: Pretendard;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+  padding: 0;
+}
+
+.divider {
+  margin: 0 8px;
+  color: #d5d5d5;
+}
+
+.signupContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  /* margin-bottom: 20px; */
+}
+
+.signupText {
+  color: #3d3d3d;
+  font-family: Pretendard;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.brandLogo {
+  width: 69px;
+  height: 12px;
+}
+
+.signupLink {
+  color: #bb0038;
+  font-family: Pretendard;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 220% */
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.arrowIcon {
+  width: 15.5px;
+  height: 4.5px;
+}
+
+.loginButton {
+  width: 100%;
+  max-width: 339px;
+  height: 45px;
+  border-radius: 12px;
+  border: none;
+  color: #FFF;
+  text-align: center;
+  font-family: Pretendard;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  transition: background-color 0.2s;
+  background: #bb0038;
+
+  display: block;
+  margin: 180px auto 0 auto;
+}
+
+
+/* 버튼 색상 수정 필요 임시 */
+
+.loginButton:disabled {
+  background-color: #e0e0e0;
+  color: #a0a0a0;
+  cursor: not-allowed;
+}

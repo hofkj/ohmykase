@@ -22,7 +22,7 @@ export default function MapPage() {
       <div className={styles.map}>
         <iframe
           src={mapSrc}
-          width="400"
+          width="100%"
           height="700"
           style={{ border: "1px solid #ccc" }}
           allowFullScreen=""

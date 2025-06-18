@@ -4,8 +4,8 @@
     align-items: center;
     position: fixed; 
     bottom: 0;
-    /* width: 100%; */
-    width: 375px;
+    width: 100%;
+    /* width: 375px; */
     height: 89px;
     z-index: 1000;
     border-top: 0.4px solid #AEAEAE;

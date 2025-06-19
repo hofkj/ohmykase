@@ -8,6 +8,7 @@ function Restaurant({
   name,
   rating,
   location,
+  shop_banner_image,  
   initialBookmarked = false,
   deletable = false,
   onDelete,
@@ -15,17 +16,16 @@ function Restaurant({
   const [isBookmarked, setIsBookmarked] = useState(initialBookmarked);
   const navigate = useNavigate();
   const apiKey = "7VCEB37-69B4CKZ-QV2674N-BTZTWXE";
-// const API_URL = import.meta.env.VITE_API_URL;
+  // const API_URL = import.meta.env.VITE_API_URL;
 
   const toggleBookmark = async (e) => {
     e.stopPropagation();
 
     try {
       if (isBookmarked) {
-        await axios.delete(
-          `/api/bookmark/delete/${apiKey}/${id}`,
-          { withCredentials: true }
-        );
+        await axios.delete(`/api/bookmark/delete/${apiKey}/${id}`, {
+          withCredentials: true,
+        });
         setIsBookmarked(false);
         if (deletable && onDelete) onDelete(id);
       } else {
@@ -49,8 +49,15 @@ function Restaurant({
   return (
     <div className={styles.restaurant_container} onClick={handleClick}>
       <div className={styles.restaurant_img}>
-        <img src="/images/restaurant/restaurant.png" alt="restaurant" />
+        <img
+          src={`/uploads/shop/${shop_banner_image}`}
+          alt="restaurant"
+          onError={(e) => {
+            e.target.src = "/images/restaurant/restaurant.png";
+          }} // 에러시 기본 이미지
+        />
       </div>
+
       <div className={styles.restaurant_details}>
         <div className={styles.restaurant_name}>
           <div className={styles.name}>{name}</div>

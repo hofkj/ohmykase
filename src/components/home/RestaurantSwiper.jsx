@@ -11,7 +11,7 @@ import styles from "../../styles/home/restaurantSwiper.module.css";
 export default function RestaurantSwiper({ shopList }) {
   const [bookmarkedIds, setBookmarkedIds] = useState([]);
   const apiKey = "7VCEB37-69B4CKZ-QV2674N-BTZTWXE";
-// const API_URL = import.meta.env.VITE_API_URL;
+  // const API_URL = import.meta.env.VITE_API_URL;
 
   useEffect(() => {
     // 북마크된 가게 id 불러오기
@@ -41,6 +41,7 @@ export default function RestaurantSwiper({ shopList }) {
               name={shop.shop_name}
               rating={shop.rating}
               location={shop.area_name}
+              shop_banner_image={shop.shop_banner_image} // ⭐️ 꼭 추가!
               initialBookmarked={bookmarkedIds.includes(shop.id)}
             />
           </SwiperSlide>

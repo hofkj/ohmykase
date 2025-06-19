@@ -8,9 +8,8 @@ import Nav from "../components/common/Nav";
 
 const apiKey = "7VCEB37-69B4CKZ-QV2674N-BTZTWXE";
 // 백엔드가 실제 돌고 있는 호스트&포트
-const API_HOST = "http://localhost:3000";
-// 이미지도 동일 호스트에서 제공
-const IMAGE_HOST = `${API_HOST}/uploads/reviews/`;
+const API_HOST = import.meta.env.VITE_API_HOST;
+const IMAGE_HOST = import.meta.env.VITE_IMAGE_HOST;
 
 export default function NavReviewPage() {
   const [activeTab, setActiveTab] = useState("store");
@@ -22,8 +21,8 @@ export default function NavReviewPage() {
       try {
         const url =
           activeTab === "store"
-            ? `${API_HOST}/api/review/all/${apiKey}`
-            : `${API_HOST}/api/review/my/${apiKey}`;
+            ? `/api/review/all/${apiKey}`
+            : `/api/review/my/${apiKey}`;
         const res = await axios.get(url, { withCredentials: true });
         console.log("API raw data:", res.data);
 
